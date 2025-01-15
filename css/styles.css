@@ -9,6 +9,14 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
+.nav-baslik {
+  display: flex;
+  align-items: center;
+}
+.menu-liste {
+  display: flex;
+  gap: 40px;
+}
 .nav-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -29,6 +37,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 .item:hover {
   color: #404bbf;
@@ -36,8 +45,10 @@ body {
 .item:focus {
   color: #404bbf;
 }
-.adres {
-  font-style: normal;
+.adres-menu{
+  display: flex;
+  gap: 40px;
+  
 }
 .adr {
   font-size: 16px;
