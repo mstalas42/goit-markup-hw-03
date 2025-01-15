@@ -101,7 +101,7 @@ body {
 .section-two {
   padding: 120px 0;
 }
-.visually-hidden {
+.visually-hidden {visibility: hidden
 }
 .liste-basi {
   display: flex;
@@ -117,7 +117,7 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  
+
 }
 .section-two-paragraf {
   font-size: 16px;
@@ -127,6 +127,8 @@ body {
 }
 .section-three {
   background-color: #f4f4fd;
+  'padding: 120px 0;
+
 }
 .section-three-baslik-two {
   font-size: 36px;
@@ -135,9 +137,23 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+.ikinci-liste{
+  display: flex;
+ gap: 24px;
+ 
 }
 .section-three-li {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-top-left-radius: 0px; border-top-right-radius: 0px; border-top-right-radius: 4px; border-bottom-left-radius: 4px;
+  
+}
+.personel-bir{
+  padding: 32px 0;
+  
+
 }
 .section-three-baslik-three {
   font-weight: 500;
@@ -145,12 +161,22 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
 }
+
 .section-three-paragraf {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: center;
+
+}
+.personel-iki{
+  padding: 32px 0;
+  
+
 }
 .section-four-baslik-two {
   font-size: 36px;
