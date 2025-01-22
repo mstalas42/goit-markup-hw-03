@@ -266,23 +266,17 @@ body {
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
-  
-}
-.Cashless-Payment {
-  width: calc((100% - 72px) / 4);
-}
-.Meditation-App{
-  width: calc((100% - 72px) / 4);
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;}
 
-}
-.Taxi-Service{
+.section-dort-li{
   width: calc((100% - 72px) / 4);
-}
-.Screen-Illustrations{
-  width: calc((100% - 72px) / 4);
-}
-.Online-Courses{
-  width: calc((100% - 72px) / 4);
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
 .section-four-baslik-three {
   font-weight: 500;
@@ -301,7 +295,7 @@ body {
   background-color: #2e2f42;
   padding: 100px 0;
 }
-.nav-logo{
+.nav-logo {
   display: inline-block;
   'margin-bottom: 16px;
 
