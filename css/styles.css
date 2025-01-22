@@ -113,7 +113,6 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-}
 .liste-basi {
   display: flex;
   gap: 24px;
@@ -267,10 +266,11 @@ body {
   border-bottom-left-radius: 4px;
 }
 .bolum-dort-liste-bir{
+  margin-bottom: 8px;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
+  
   }
   .container {
     
@@ -304,13 +304,14 @@ body {
   display: inline-block;
   margin-bottom: 16px;
 }
+.footer-studio {
+  color: #f4f4fd;
+  display: inline-block;
+}
 .footer-paragraf {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
   max-width: 264px;
 }
-.footer-studio {
-  color: #f4f4fd;
-  display: inline-block;
-}
+
