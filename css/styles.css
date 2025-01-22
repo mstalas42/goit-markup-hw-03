@@ -107,9 +107,10 @@ body {
   height: 1px;
   margin: -1px;
   padding: 0;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
   border: 0;
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+  white-space: nowrap;
 }
 .liste-basi {
   display: flex;
@@ -237,7 +238,9 @@ body {
   color: #434455;
   text-align: center;
 }
-
+.section-four {
+  padding: 120px 0;
+}
 .section-four-baslik-two {
   font-size: 36px;
   line-height: 1.11;
@@ -245,6 +248,41 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
+
+}
+.section-four-ul{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.banking-app {
+  width: calc((100% - 72px) / 4);
+
+}
+.bolum-dort-liste-bir{
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+  
+}
+.Cashless-Payment {
+  width: calc((100% - 72px) / 4);
+}
+.Meditation-App{
+  width: calc((100% - 72px) / 4);
+
+}
+.Taxi-Service{
+  width: calc((100% - 72px) / 4);
+}
+.Screen-Illustrations{
+  width: calc((100% - 72px) / 4);
+}
+.Online-Courses{
+  width: calc((100% - 72px) / 4);
 }
 .section-four-baslik-three {
   font-weight: 500;
@@ -261,11 +299,18 @@ body {
 }
 .footer-class {
   background-color: #2e2f42;
+  padding: 100px 0;
+}
+.nav-logo{
+  display: inline-block;
+  'margin-bottom: 16px;
+
 }
 .footer-paragraf {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 .footer-studio {
   color: #f4f4fd;
