@@ -268,7 +268,7 @@ body {
   margin-bottom: 8px;
 }
 .container {
-  
+  justify-content: space-between;
 }
 
 .section-four-baslik-three {
@@ -295,7 +295,6 @@ body {
 .footer-studio {
   color: #f4f4fd;
   display: inline-block;
-}
 }
 .footer-paragraf {
   line-height: 1.5;
