@@ -252,14 +252,14 @@ body {
   color: #2e2f42;
   margin-bottom: 72px;
 }
-.section-four-ul {
+.ul-class {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  margin-bottom: 8px;
+ 
 }
-.section-dort-li {
+.li-class {
   width: calc((100% - 72px) / 3);
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
@@ -267,24 +267,17 @@ body {
   border-bottom-left-radius: 4px;
   
 }
-.bolum-dort-liste-bir {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
-  
-}
-.container {
-  justify-content: space-between;
-}
-
-.section-dort-li {
-  width: calc((100% - 48px) / 3);
+.item-content {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
   
 }
+.container {
+  justify-content: space-between;
+}
+
 .section-four-baslik-three {
   font-weight: 500;
   font-size: 20px;
