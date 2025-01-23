@@ -288,11 +288,11 @@ body {
   background-color: #2e2f42;
   padding: 100px 0;
 }
-.nav-logo {
+.nav-logo-footer {
   margin-bottom: 16px;
   display: inline-block;
 }
-.footer-studio {
+.nav-footer-studio {
   color: #f4f4fd;
   display: inline-block;
 }
